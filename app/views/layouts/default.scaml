@@ -1,0 +1,20 @@
+-@ var body:String
+-@ var title: String = "The new Blog"
+
+!!!5
+%link(rel="stylesheet" type="text/css" href="/assets/stylesheets/bootstrap.min.css")
+:css
+    body {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+%link(rel="stylesheet" type="text/css" href="/assets/stylesheets/bootstrap-responsive.min.css")
+
+%html
+    %title #{title}
+    %body
+        -unescape(body)
+
+-#load js at the end to have the page displayed first thus quicker
+%script(type="text/javascript" src="assets/javascripts/jquery-1.7.1.min.js")
+%script(type="text/javascript" src="assets/javascripts/main.js")

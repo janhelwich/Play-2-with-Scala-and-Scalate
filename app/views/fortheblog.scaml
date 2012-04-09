@@ -1,0 +1,18 @@
+-@ val posts: List[models.helwich.Post]
+
+!!!5
+%html
+    %title #{title}
+    %body
+        %h1 Here comes the Blog
+        -for(post <- posts)
+            %div
+                %h2 post.title
+                %textarea(readonly="readonly") post.content
+
+
+%div.navbar.navbar-fixed-top
+    %div.navbar-inner
+        %div.container
+            %a.brand Here comes the Blog
+%div.container
