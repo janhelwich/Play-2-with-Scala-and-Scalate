@@ -64,7 +64,7 @@
       <file leaf-file-name="main-blog.scaml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/main-blog.scaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="14" selection-start="181" selection-end="190" vertical-scroll-proportion="0.0">
+            <state line="6" column="14" selection-start="181" selection-end="190" vertical-scroll-proportion="-0.625">
               <folding />
             </state>
           </provider>
@@ -97,19 +97,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="32" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Procfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="77" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
+            <state line="0" column="60" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -664,7 +655,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/main-blog.scaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="14" selection-start="181" selection-end="190" vertical-scroll-proportion="0.0" />
+        <state line="6" column="14" selection-start="181" selection-end="190" vertical-scroll-proportion="-0.625">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/enter-blog-form.scaml">
@@ -679,6 +672,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="32" selection-start="166" selection-end="166" vertical-scroll-proportion="0.05408654">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/conf/application.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -686,16 +686,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="32" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="77" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
+        <state line="0" column="60" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

@@ -1,1 +1,1 @@
-web: target/start -Dhttp.port=$PORT -DapplyEvolutions.default=true $PLAY_OPTS
+web: start -Dhttp.port=$PORT -DapplyEvolutions.default=true
