@@ -1,9 +1,8 @@
-import org.fusesource.scalate.sbt.{PrecompilerWebProject}
 import sbt._
 import Keys._
 import PlayProject._
 
-object ApplicationBuild extends Build with PrecompilerWebProject{
+object ApplicationBuild extends Build {
 
     val appName         = "Yet Another Blog Engine"
     val appVersion      = "1.0-SNAPSHOT"
