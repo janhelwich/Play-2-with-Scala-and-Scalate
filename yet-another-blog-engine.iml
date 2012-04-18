@@ -439,6 +439,15 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Applications/play-2.0/repository/cache/org.fusesource.scalate/sbt-scalate-plugin/jars/sbt-scalate-plugin-1.5.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
     <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
@@ -848,6 +857,15 @@
       <library>
         <CLASSES>
           <root url="jar:///Applications/play-2.0/framework/sbt/boot/scala-2.9.1/lib/scala-compiler.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Applications/play-2.0/repository/cache/org.fusesource.scalate/sbt-scalate-plugin/jars/sbt-scalate-plugin-1.5.3.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
