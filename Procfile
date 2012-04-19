@@ -1,1 +1,1 @@
-web:  target/start -DapplyEvolutions.default=true -Dhttp.port=$PORT $PLAY_OPTS
+web:  target/start -DapplyEvolutions.default=true -Dhttp.port=$PORT –%$FRAMEWORK_ID –http.port=$PORT -DusePrecompiled=$USE_PRECOMPILED
