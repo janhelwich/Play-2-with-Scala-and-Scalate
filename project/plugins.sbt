@@ -13,3 +13,5 @@ addSbtPlugin("com.github.mpeltonen" % "sbt-idea" % "0.11.0")
 
 // Use the Play sbt plugin for Play projects
 addSbtPlugin("play" % "sbt-plugin" % "2.0")
+
+libraryDependencies <+= sbtVersion(v => "com.mojolly.scalate" %% "xsbt-scalate-generator" % (v + "-0.1.6"))
