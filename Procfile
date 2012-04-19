@@ -1,1 +1,1 @@
-web:  target/start -DapplyEvolutions.default=true -Dhttp.port=$PORT
+play:  target/start -DapplyEvolutions.default=true -Dhttp.port=$PORT
