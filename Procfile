@@ -1,1 +1,1 @@
-web:  target/start -DapplyEvolutions.default=true -Dhttp.port=$PORT –http.port=$PORT -DusePrecompiled=$USE_PRECOMPILED
+web:  target/start -DapplyEvolutions.default=true -Dhttp.port=$PORT –http.port=$PORT
