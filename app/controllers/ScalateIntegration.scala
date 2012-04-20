@@ -19,8 +19,8 @@ object Scalate {
   lazy val scalateEngine = {
     val engine = new TemplateEngine
     engine.resourceLoader = new FileResourceLoader(Some(Play.getFile("/app/views")))
-    engine.layoutStrategy = new DefaultLayoutStrategy(engine, Play.getFile("/app/views/layouts/default." + format).getAbsolutePath)
-    engine.classpath = Play.getFile("/tmp/classes").getAbsolutePath
+    engine.layoutStrategy = new DefaultLayoutStrategy(engine, "app/views/layouts/default." + format)
+    engine.classpath = "tmp/classes"
     engine.workingDirectory = Play.getFile("tmp")
     engine.combinedClassPath = true
     engine.classLoader = Play.classloader
