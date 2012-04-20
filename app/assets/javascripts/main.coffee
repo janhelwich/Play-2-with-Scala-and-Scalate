@@ -21,5 +21,7 @@ $(document).ready ->
       success: ->
         $("#reset").click()
         readAllPosts.apply()
+      error: (jqXHR, textStatus, errorThrown) ->
+        alert(errorThrown)
     )
     false
