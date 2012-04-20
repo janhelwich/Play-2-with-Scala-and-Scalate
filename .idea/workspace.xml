@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2d17c253-1b28-47be-b19a-a77e7c93b022" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/main.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/main.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/enter-blog-form.scaml" afterPath="$PROJECT_DIR$/app/views/enter-blog-form.scaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yet-another-blog-engine.iml" afterPath="$PROJECT_DIR$/yet-another-blog-engine.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.sbt" afterPath="$PROJECT_DIR$/build.sbt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/Build.scala" afterPath="$PROJECT_DIR$/project/Build.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/plugins.sbt" afterPath="$PROJECT_DIR$/project/plugins.sbt" />
     </list>
     <ignored path="yabe.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,7 +69,7 @@
       <file leaf-file-name="Build.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/Build.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="1" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0">
+            <state line="16" column="3" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -77,10 +77,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.sbt" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="build.sbt" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build.sbt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="55" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0">
+            <state line="6" column="25" selection-start="181" selection-end="181" vertical-scroll-proportion="0.10817308">
               <folding />
             </state>
           </provider>
@@ -90,42 +90,6 @@
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/main.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="25" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Application.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/Application.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="15" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="enter-blog-form.scaml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/enter-blog-form.scaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="72" selection-start="163" selection-end="163" vertical-scroll-proportion="0.055693068">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ScalateIntegration.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/ScalateIntegration.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="70" selection-start="574" selection-end="574" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -165,16 +129,16 @@
         <option value="$PROJECT_DIR$/app/views/main-blog.scaml" />
         <option value="$PROJECT_DIR$/app/views/layouts/default.scaml" />
         <option value="$PROJECT_DIR$/app/views/fortheblog.scaml" />
-        <option value="$PROJECT_DIR$/project/plugins.sbt" />
         <option value="$PROJECT_DIR$/project/build.sbt" />
-        <option value="$PROJECT_DIR$/project/Build.scala" />
-        <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/app/controllers/ScalateIntegration.scala" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/main.coffee" />
         <option value="$PROJECT_DIR$/app/controllers/Application.scala" />
         <option value="$PROJECT_DIR$/app/views/enter-blog-form.scaml" />
+        <option value="$PROJECT_DIR$/project/plugins.sbt" />
+        <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/project/Build.scala" />
       </list>
     </option>
   </component>
@@ -878,7 +842,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="added return false to avoid submit of form" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed bug that header can be too long" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -899,6 +863,7 @@
     <MESSAGE value="trying to add precompilation of  scamls" />
     <MESSAGE value="add precompilation of  scamls" />
     <MESSAGE value="added return false to avoid submit of form" />
+    <MESSAGE value="fixed bug that header can be too long" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -937,15 +902,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/Build.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="1" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/logs/application.log">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -960,13 +916,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/ScalateIntegration.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="70" selection-start="574" selection-end="574" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="134" selection-end="134" vertical-scroll-proportion="0.05408654">
@@ -974,16 +923,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/main.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="55" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0">
+        <state line="24" column="26" selection-start="707" selection-end="707" vertical-scroll-proportion="0.43269232">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
+    <entry file="file://$PROJECT_DIR$/app/views/enter-blog-form.scaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0">
+        <state line="3" column="72" selection-start="163" selection-end="163" vertical-scroll-proportion="0.055693068">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/Application.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="15" selection-start="494" selection-end="494" vertical-scroll-proportion="0.37860578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/ScalateIntegration.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="70" selection-start="574" selection-end="574" vertical-scroll-proportion="0.36057693">
           <folding />
         </state>
       </provider>
@@ -995,23 +958,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/Application.scala">
+    <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="15" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
+        <state line="10" column="0" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/main.coffee">
+    <entry file="file://$PROJECT_DIR$/project/Build.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="25" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="16" column="3" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/enter-blog-form.scaml">
+    <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="72" selection-start="163" selection-end="163" vertical-scroll-proportion="0.055693068">
+        <state line="6" column="25" selection-start="181" selection-end="181" vertical-scroll-proportion="0.10817308">
           <folding />
         </state>
       </provider>

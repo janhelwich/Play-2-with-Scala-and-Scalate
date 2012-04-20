@@ -13,7 +13,7 @@ object ApplicationBuild extends Build {
   )
 
   val main = PlayProject(appName, appVersion, appDependencies, mainLang = SCALA).settings(
-    scalacOptions += "-deprecation"
+//    scalacOptions += "-deprecation"
   )
 
 }
