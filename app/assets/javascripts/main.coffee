@@ -22,3 +22,4 @@ $(document).ready ->
         $("#reset").click()
         readAllPosts.apply()
     )
+    false
