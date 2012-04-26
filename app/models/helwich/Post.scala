@@ -20,8 +20,7 @@ object Post{
   private[helwich] var dao = new SalatDAO[Post, ObjectId](collection = collection) {}
 
   def findAll() = {
-    val results = dao.find(MongoDBObject.empty)
-    results.toList
+    dao.find(MongoDBObject.empty).toList
   }
 
   def create(post: Post): Unit = {
