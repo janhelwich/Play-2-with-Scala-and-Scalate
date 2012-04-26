@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2d17c253-1b28-47be-b19a-a77e7c93b022" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Procfile" afterPath="$PROJECT_DIR$/Procfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/application.conf" afterPath="$PROJECT_DIR$/conf/application.conf" />
     </list>
     <ignored path="yabe.iws" />
@@ -77,7 +76,7 @@
       <file leaf-file-name="application.conf" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/conf/application.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="5" selection-start="1209" selection-end="1209" vertical-scroll-proportion="0.88341343">
+            <state line="49" column="24" selection-start="1228" selection-end="1228" vertical-scroll-proportion="0.88341343">
               <folding />
             </state>
           </provider>
@@ -105,6 +104,15 @@
         <entry file="file://$PROJECT_DIR$/app/models/helwich/Post.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state line="23" column="19" selection-start="707" selection-end="707" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MongoURI.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///Applications/play-2.0/repository/cache/com.mongodb.casbah/casbah-core_2.9.1/jars/casbah-core_2.9.1-2.1.5-1.jar!/com/mongodb/casbah/MongoURI.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="6" selection-start="33" selection-end="33" vertical-scroll-proportion="-0.6">
               <folding />
             </state>
           </provider>
@@ -140,10 +148,10 @@
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/project/Build.scala" />
         <option value="$PROJECT_DIR$/app/Global.scala" />
-        <option value="$PROJECT_DIR$/app/models/helwich/Post.scala" />
         <option value="$PROJECT_DIR$/test/models/helwich/PostTest.scala" />
         <option value="$PROJECT_DIR$/app/controllers/Application.scala" />
         <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/app/models/helwich/Post.scala" />
         <option value="$PROJECT_DIR$/conf/application.conf" />
       </list>
     </option>
@@ -867,21 +875,9 @@
         <state line="41" column="6" selection-start="6781" selection-end="6781" vertical-scroll-proportion="0.62305987" />
       </provider>
     </entry>
-    <entry file="jar:///Applications/play-2.0/repository/cache/com.mongodb.casbah/casbah-core_2.9.1/jars/casbah-core_2.9.1-2.1.5-1.jar!/com/mongodb/casbah/MongoURI.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="6" selection-start="33" selection-end="33" vertical-scroll-proportion="0.01858736" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/ScalateIntegration.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="70" selection-start="574" selection-end="574" vertical-scroll-proportion="0.027322404">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/helwich/Post.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="19" selection-start="707" selection-end="707" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -914,9 +910,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Applications/play-2.0/repository/cache/com.mongodb.casbah/casbah-core_2.9.1/jars/casbah-core_2.9.1-2.1.5-1.jar!/com/mongodb/casbah/MongoURI.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="6" selection-start="33" selection-end="33" vertical-scroll-proportion="-0.6">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Applications/play-2.0/repository/cache/org.mongodb/mongo-java-driver/jars/mongo-java-driver-2.5.3.jar!/com/mongodb/MongoURI.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="149" selection-end="149" vertical-scroll-proportion="0.07434944">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Applications/play-2.0/repository/cache/com.mongodb.casbah/casbah-core_2.9.1/jars/casbah-core_2.9.1-2.1.5-1.jar!/com/mongodb/casbah/MongoConnection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="33" selection-start="2650" selection-end="2650" vertical-scroll-proportion="0.6234257">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/helwich/Post.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="19" selection-start="707" selection-end="707" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/conf/application.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="5" selection-start="1209" selection-end="1209" vertical-scroll-proportion="0.88341343">
+        <state line="49" column="24" selection-start="1228" selection-end="1228" vertical-scroll-proportion="0.88341343">
           <folding />
         </state>
       </provider>
