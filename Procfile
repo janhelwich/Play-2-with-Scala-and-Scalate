@@ -1,1 +1,1 @@
-web:  target/start -DapplyEvolutions.default=true -Dhttp.port=$PORT -Dmongo.uri=$MONGOHQ_URL
+web:  target/start -DapplyEvolutions.default=true -Dhttp.port=$PORT
