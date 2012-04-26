@@ -12,11 +12,13 @@ import com.novus.salat.dao._
 
 import com.mongodb.casbah.commons.Imports._
 import com.mongodb.casbah.MongoConnection
+import com.mongodb.MongoURI
+import play.api.Play
 
-case class Post(title: String,  posted: Date, content: String, author: User, _id: ObjectId = new ObjectId)
+case class Post(title: String,  posted: Date, content: String, _id: ObjectId = new ObjectId)
 
 object Post{
-  val collection = MongoConnection()("blog_db")("posts")
+  val collection = MongoConnection(new MongoURI(Play.configuration.getString("mongo.uri").get))("blog_db")("posts")
   private[helwich] var dao = new SalatDAO[Post, ObjectId](collection = collection) {}
 
   def findAll() = {
@@ -26,6 +28,4 @@ object Post{
   def create(post: Post): Unit = {
     dao.insert(post)
   }
-
-
 }

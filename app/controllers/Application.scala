@@ -20,7 +20,7 @@ object Application extends Controller {
     val body: Option[Map[String, Seq[String]]] = request.body.asFormUrlEncoded
 
     body.map { map =>
-      Post.create(new Post(map.get("title").get.head, new Date(), map.get("content").get.head, User.findAll()(0)))
+      Post.create(new Post(map.get("title").get.head, new Date(), map.get("content").get.head))
       Ok("Saved")
     }.getOrElse{
       BadRequest("Expecting form url encoded body")
