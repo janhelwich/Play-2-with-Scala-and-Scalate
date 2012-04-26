@@ -4,7 +4,7 @@ import com.codahale.jerkson.Json._
 
 import play.api.mvc._
 import java.util.Date
-import models.helwich.{User, Post}
+import models.helwich.Post
 
 object Application extends Controller {
 
