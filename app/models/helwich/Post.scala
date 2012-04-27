@@ -10,15 +10,20 @@ import com.novus.salat._
 import com.novus.salat.global._
 import com.novus.salat.dao._
 
-import com.mongodb.casbah.commons.Imports._
+//import com.mongodb.casbah.commons.Imports._
+import com.mongodb.casbah.Imports._
 import com.mongodb.casbah.MongoConnection
-import com.mongodb.MongoURI
+import com.mongodb.casbah.MongoURI
 import play.api.Play
 
 case class Post(title: String,  posted: Date, content: String, _id: ObjectId = new ObjectId)
 
 object Post{
-  val collection = MongoConnection(new MongoURI(Play.configuration.getString("mongo.uri").get))("blog_db")("posts")
+  val collection = {
+    val baseuri = new com.mongodb.MongoURI("mongodb://Jan:Hawk20@staff.mongohq.com:10008/app4085981 ")
+    val uri = new MongoURI(baseuri)
+    MongoConnection(baseuri)("heroku_app4085981")("posts")
+  }
   private[helwich] var dao = new SalatDAO[Post, ObjectId](collection = collection) {}
 
   def findAll() = {
