@@ -9,6 +9,7 @@ import java.util.Date
 import com.novus.salat.dao._
 
 import com.mongodb.casbah.commons.Imports._
+import java.net.URI
 
 
 class PostTest extends Specification with Mockito {
@@ -21,6 +22,14 @@ class PostTest extends Specification with Mockito {
         Post.create(post)
         there was one(Post.dao).insert(post)
       }
+    }
+    "uri test" in {
+      val uri = new URI("mongodb://Jan:hawk20@staff.mongohq.com:10008/app4085981")
+
+      uri.getHost mustEqual("staff.mongohq.com")
+      uri.getUserInfo mustEqual("Jan:hawk20")
+      uri.getPath mustEqual("/app4085981")
+      uri.getPort mustEqual(10008)
     }
   }
 }
